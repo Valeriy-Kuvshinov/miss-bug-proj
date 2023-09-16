@@ -1,0 +1,61 @@
+.bug-details-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.bug-details {
+    background-color: #98d59c;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.bug-details:hover {
+    opacity: 1;
+}
+
+.bug-details h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bug-details h4 {
+    margin: 10px 0;
+    font-size: 1.3em;
+    text-transform: capitalize;
+}
+
+.bug-details p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.bug-details p span {
+    font-weight: bold;
+}
+
+.bug-details h1 {
+    font-size: 60px;
+    margin: 0.1em;
+}
+
+.bug-details button,
+.bug-details a {
+    padding: 0.5em 0.8em;
+    background-color: #75dd67;
+    border-radius: 10px;
+    font-size: 1em;
+    font-family: 'Open Sans';
+}
+
+.bug-details button:hover,
+.bug-details a:hover {
+    background-color: #469c3b;
+    color: #f9f9f9;
+    transition: 0.3s;
+}

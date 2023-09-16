@@ -1,0 +1,54 @@
+.login-page {
+    display: flex;
+    min-height: 100vh;
+    text-align: center;
+    color: #e9dede;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+
+.login-form {
+    border-radius: 25px;
+    background: #35961a;
+    opacity: 0.95;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    width: 300px;
+    margin: auto;
+}
+
+.login-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 200px;
+    margin: auto;
+}
+
+.login-form button {
+    background-color: rgb(59, 223, 59);
+    color: rgb(24, 23, 23);
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 3vh;
+}
+
+.login-form button:hover {
+    background-color: rgb(7, 71, 7);
+    color: rgb(241, 233, 233);
+}
+
+.login-form .btns {
+    font-weight: bold;
+}
+
+.login-form input {
+    background: #201e1e;
+    color: #ece5e5;
+    font-weight: bold;
+    margin-top: 1vh;
+    font-family: 'Roboto', sans-serif;
+}

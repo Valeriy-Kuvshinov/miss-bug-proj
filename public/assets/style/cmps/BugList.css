@@ -1,0 +1,44 @@
+.bug-list {
+    padding: 15px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.bug-list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #549d3e;
+    border-radius: 25px;
+}
+
+.bug-list li h1 {
+    font-size: 50px;
+    margin: 0.05em;
+}
+
+.bug-list li p {
+    color: red;
+    margin: 0;
+}
+
+.bug-list li section {
+    margin-bottom: 2vh;
+    display: flex;
+}
+
+.bug-preview {
+    text-align: center;
+    padding: 0.3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bug-preview h4 {
+    text-transform: capitalize;
+    color: black;
+}

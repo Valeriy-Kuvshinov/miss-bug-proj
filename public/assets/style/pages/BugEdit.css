@@ -1,0 +1,40 @@
+.bug-edit-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    color: #e9dede;
+}
+
+.bug-edit-page form {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin: auto;
+    background: #044404;
+    align-items: center;
+    width: 400px;
+    padding: 20px;
+    opacity: 0.9;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 25px;
+}
+
+.bug-edit-page form input,
+.bug-edit-page form textarea {
+    width: 300px;
+    margin-bottom: 1vh;
+    background: #201e1e;
+    color: #ece5e5;
+    font-weight: bold;
+    margin-top: 1vh;
+    font-family: 'Roboto', sans-serif;
+    resize: none;
+}
+
+.bug-edit-page form p {
+    margin-top: 1vh;
+    width: 300px;
+    margin-bottom: 1vh
+}

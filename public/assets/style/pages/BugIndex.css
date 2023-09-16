@@ -1,0 +1,99 @@
+.bug-index {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.bug-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    width: fit-content;
+    margin: auto;
+}
+
+.bug-controls h2 {
+    font-size: 2em;
+    color: #e6d7d7;
+    border-bottom: 2px solid;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 600px;
+}
+
+.bug-filter,
+.bug-sort {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    background-color: #65bf33;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.bug-filter h2,
+.bug-sort h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.bug-filter form,
+.bug-sort.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.bug-filter input,
+.bug-filter select,
+.bug-sort select {
+    width: 125px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1em;
+    border: none;
+}
+
+.bug-sort select {
+    width: 100px;
+}
+
+.bug-sort div,
+.bug-filter div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.add-bug-btn {
+    display: inline-block;
+    padding: 5px;
+    background-color: #40e663;
+    color: #111010;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.add-bug-btn:hover {
+    background-color: #056625;
+}
+
+.bug-pagination {
+    display: flex;
+    justify-content: center;
+    background-color: #151515;
+    color: #e1dcd2;
+}

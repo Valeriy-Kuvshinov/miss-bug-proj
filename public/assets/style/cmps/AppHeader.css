@@ -1,0 +1,53 @@
+.app-header {
+    background-color: #151515;
+    color: #d7ced3;
+    height: 50px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.header-container h1 {
+    flex-grow: 1;
+    font-size: 1.5em;
+}
+
+.app-nav {
+    display: flex;
+    gap: 15px;
+    font-family: 'Oswald', sans-serif;
+    margin-inline-end: 1em;
+    align-items: center;
+}
+
+.app-nav-login {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.app-nav-login button {
+    background-color: rgb(59, 223, 59);
+    color: rgb(24, 23, 23);
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+.app-nav-login button:hover {
+    background-color: rgb(7, 71, 7);
+    color: rgb(241, 233, 233);
+}
+
+a.active {
+    color: #f7dc05;
+    font-weight: 600;
+}
+
+@media (max-width: 720px) {
+    .app-header {
+        color: var(--clr2bg-light);
+    }
+}
